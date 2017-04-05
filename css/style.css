@@ -18,3 +18,22 @@ body{
     margin: 0 auto;
     padding: 20px 0px 20px 0px
 }
+
+
+@media only screen and (max-width: 1060px) {
+    #content{
+        width: 94%;
+    }
+    #title-bar{
+        width: 94%;
+    }
+}
+
+a{
+    color: #1177cc;
+}
+
+hr{
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+}
