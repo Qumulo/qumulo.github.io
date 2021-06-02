@@ -31,6 +31,12 @@ body{
     color: #005d80;
 }
 
+#footer{
+    background-color: #0d1934;
+    width: auto;
+    height: 150px;
+}
+
 @media only screen and (max-width: 1060px) {
     #content{
         width: 94%;
