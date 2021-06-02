@@ -19,6 +19,11 @@ body{
     padding: 40px 50px 40px 50px
 }
 
+#logo{
+   width: 12%;
+   image-rendering: 20;
+}
+
 
 @media only screen and (max-width: 1060px) {
     #content{
