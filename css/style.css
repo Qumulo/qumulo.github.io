@@ -37,6 +37,13 @@ body{
     height: 150px;
 }
 
+.gquats img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 20px;
+}
+
 @media only screen and (max-width: 1060px) {
     #content{
         width: 94%;
