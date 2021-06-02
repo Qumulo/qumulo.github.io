@@ -1,6 +1,6 @@
 body{
-    font-family: sans-serif;
-    background-color: #eee;
+    font-family: Avenir;
+    background-color: #F8F8F8;
     margin: 0px;
 }
 
@@ -10,13 +10,13 @@ body{
 }
 
 #header{
-    background-color: #222222;    
+    background-color: #0d1934;    
 }
 
 #title-bar{
-    width: 1000px;
+    width: auto;
     margin: 0 auto;
-    padding: 20px 0px 20px 0px
+    padding: 40px 50px 40px 50px
 }
 
 
