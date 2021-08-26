@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Qumulo's GitHub</title>
+        <title>Qumulo on GitHub</title>
         <link rel="stylesheet" type="text/css" href="/css/style.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        <meta name="description" content="Qumulo's RESTful API documentation, installation, and code on GitHub" />
-
-        <!-- Twitter Card data -->
+        <meta name="description" content="Qumulo's resources on GitHub: introduction to the REST API, cloud deployment samples, API-driven applications, power tools, and Python Jupyter notebooks" />
+        <!-- Twitter Card Data Start -->
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="@Qumulo">
-        <meta name="twitter:title" content="Qumulo API on GitHub">
-        <meta name="twitter:description" content="Qumulo's RESTful API documentation, installation, and code on GitHub">
+        <meta name="twitter:title" content="Qumulo Resources on GitHub">
+        <meta name="twitter:description" content="Qumulo's resources on GitHub: introduction to the REST API, cloud deployment samples, API-driven applications, power tools, and Python Jupyter notebooks">
         <meta name="twitter:creator" content="@Qumulo">
         <meta name="twitter:image" content="//qumulo.github.io/images/engineering-qumulo.png">
-
-        <!-- Open Graph data -->
-        <meta property="og:title" content="Qumulo API on GitHub" />
+        <!-- Twitter Card Data End -->
+        <!-- Open Graph Data Start -->
+        <meta property="og:title" content="Qumulo Resources on GitHub" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="//qumulo.github.io/" />
         <meta property="og:image" content="//qumulo.github.io/images/engineering-qumulo.png" />
-        <meta property="og:description" content="Qumulo's RESTful API documentation, installation, and code on GitHub" /> 
+        <meta property="og:description" content="Qumulo's resources on GitHub: introduction to the REST API, cloud deployment samples, API-driven applications, power tools, and Python Jupyter notebooks" /> 
         <meta property="og:site_name" content="Qumulo" />
+        <!-- Open Graph Data End -->
     </head>
     <body>
         <div id="header">
@@ -30,79 +29,52 @@
             </div>        
         </div>
         <div id="content">
-            <h1>Qumulo's GitHub</h1>
-            <p>
-                Qumulo's scale-out data storage solution is enhanced with our RESTful API. The API is built right into our file system. It's the foundation used behind the Qumulo web application and is used internally by our engineering team for testing, automation, and more. As a storage admin or storage user, you can use this programmatic power to:
-                <ul>
-                    <li>Automate tasks like creating shares, quotas, or snapshots</li>
-                    <li>Streamline your workflow with scripted automation</li>
-                    <li>Dive deeper into analytics to understand how your storage is being used</li>
-                </ul>
-            </p>
-            <p>
-                This page summarizes Qumulo's current offerings on GitHub that compliment and enhance the power of your scale-out storage system. Visit our <a href='https://github.com/Qumulo/qumulo-api-introduction'>introduction</a>, or dive into some of the deeper applications and examples below.
-            </p>
+            <h1>Qumulo Resources on GitHub</h1>
+            <p><a href="https://qumulo.com/">Qumulo</a> creates products that to let users manage their unstructured file data for high-performance workloads at exabyte scale. This page is your starting point for Qumulo resources on GitHub.</p>
             <hr />
-
+            <h2>Documentation on GitHub</h2>
+            <p>To provide the most up-to-date documentation on Qumulo products, we have started a <a href="https://qumulo.github.io/docs/index.html">Docs as Code</a> repository on GitHub, where you can use, ask questions, and make suggestions for our documentation.</p>
             <h2>Getting Started</h2>
-            <p>
-                <a href='https://github.com/Qumulo/qumulo-api-introduction'>Qumulo API Introduction</a> - Read about the basic architecture of Qumulo's API and try out the following intros:
-                    <ul>
-                        <li><b>python</b> bindings - Our main supported method for programmatically interacting with the Qumulo API.</li>
-                        <li><b>qq</b> command line tool - A wrapper that provides a streamlined, command-line interface to the API.</li>
-                        <li><b>curl</b> commands - Illustrative example of the raw REST elements backing the API.</li>
-                    </ul>
-            </p>
+            <p>Qumulo's scale-out data storage solution is enhanced with our RESTful API. The API is built right into our file system. It's the foundation used behind the Qumulo web application and is used internally by our engineering team for testing, automation, and more. As a storage admin or storage user, you can use this programmatic power to: </p>
+            <ul>
+                <li>Automate tasks like creating shares, quotas, or snapshots</li>
+                <li>Streamline your workflow with scripted automation</li>
+                <li>Dive deeper into analytics to understand how your storage is being used</li>
+            </ul>
+            <p>To get started, see <a href='https://github.com/Qumulo/qumulo-api-introduction'>Introduction to the Qumulo API</a>, where you can learn about the API's architecture and try out the following implementations.</p>
+            <ul>
+                <li><strong><code>python</code> bindings:</strong> This is the main method of interacting with the Qumulo API programmatically.</li>
+                <li><strong><code>qq</code></strong> CLI tool: This wrapper that provides a streamlined command-line interface for the API.</li>
+                <li><strong><code>curl</code></strong> commands: These examples explain the raw REST elements that back the API.</li>
+            </ul>
             <hr />
-
             <h2>Deploying Qumulo in the Cloud</h2>
-            <p>
-                <a href='https://github.com/Qumulo/Cloud-Deployment-Samples'>Qumulo Cloud Deployment Samples</a> - Use these samples to get started creating a Qumulo cluster in the cloud, leveraging your favorite Orchestration technology.  
-            </p>
+            <p>Use the <a href='https://github.com/Qumulo/Cloud-Deployment-Samples'>Qumulo Cloud Deployment Samples</a> to get started with creating a Qumulo cluster in the cloud by using your favorite orchestration technology.</p>
             <hr />
-
-            <h2>Qumulo's Github Repositories</h2>
-            <p>
-                <p>
-                    Our GitHub repositories are organized into 3 categories. Each category includes code examples that demonstrate a variety of uses of the Qumulo API.
-                </p>
-
-                <h3>API-Driven Applications</h3>
-                <p>
-                    <ul>
-                        <li><a href='https://github.com/Qumulo/snmp-agent-app'>SNMP agent</a> - A small SNMP agent that reports on node and drive states for a Qumulo cluster.</li>
-                        <li><a href='https://github.com/Qumulo/file-transfer-app'>File upload web app</a> - Flask-based Python application that enables user home directories, file upload, and management.</li>
-                        <li><a href='https://github.com/Qumulo/daily-storage-reports-app'>Daily storage reports web app</a> - Store/present/alert on capacity &amp; IOPS usage by path over time with this Flask-based app.</li>
-                        <li><a href='https://github.com/Qumulo/capacity-alerts-app'>Capacity email alerts</a> - Small python application that sends email when paths exceed capacity thresholds.</li>
-                        <li><a href='https://github.com/Qumulo/power-tools#add-qumulo-activity-to-various-databases-from-the-api'>API metrics to CSV, ElasticSearch, Influx, Splunk</a> - A script for monitoring workload data including: paths, clients, IOPS, throughput.</li>
-                        <!-- <li><a href='https://github.com/Qumulo/qftpd-app'>FTP daemon - *<b style="background-color: #FFCC99;">Deprecated</b>*</a> - Python ftp server application that is backed by the Qumulo API.</li> -->
-                    </ul>
-                </p>
-                <h3>Power Tools</h3>
-                <p>
-                    <ul>
-                        <li><a href='https://github.com/Qumulo/qdu'>Disk usage (du)</a> - Leverage the power of Qumulo's aggregates to see usage of a full file tree in real time.</li>
-                        <li><a href='https://github.com/Qumulo/qsplit'>Parallel copy w/ rsync</a> - Use capacity aggregates to divide up a large data copy job to be run with rsync.</li>
-                        <li><a href='https://github.com/Qumulo/capacity-by-user'>Capacity by user</a> - Use the file samples API to provide quick estimates of storage usage by user, with estimated costs.</li>
-                        <li><a href='https://github.com/Qumulo/qacls'>ACLs management</a> - Manage ACLs with this tool.</li>
-                    </ul>
-                </p>
-                <h3>Python Jupyter Notebooks</h3>
-                <p>
-                    <ul>
-                        <li><a href='https://github.com/Qumulo/python-notebooks'>Qumulo API Jupyter notebooks</a> - Explore the API with the data scientist's tool of choice, Python Jupyter notebooks.</li>
-                    </ul>
-                </p>
-            </p>
-
-            <br />
-            <br />
-            <br />
+            <h2>Qumulo Github Repositories</h2>
+            <p>Our GitHub repositories are organized into categories with code examples that demonstrate a variety of uses of the Qumulo API.</p>
+            <h3>API-Driven Applications</h3>
+            <ul>
+                <li><strong><a href="https://github.com/Qumulo/snmp-agent-app">SNMP Agent:</a></strong> A Simple Network Management Protocol (SNMP) agent that reports on node and drive states for a Qumulo cluster.</li>
+                <li><strong><a href="https://github.com/Qumulo/file-transfer-app">File Upload Web App</a>:</strong> A Flask-based Python application that enables user home directories, file upload, and management functionality.</li>
+                <li><strong><a href="https://github.com/Qumulo/daily-storage-reports-app">Daily Storage Reports Web App</a>:</strong> A Flask-based application that creates reports for store, present, and alert on capacity and IOPS usage by path, over time.</li>
+                <li><strong><a href="https://github.com/Qumulo/capacity-alerts-app">Capacity Email Alerts</a>:</strong> A Python application that sends emails when paths exceed capacity thresholds.</li>
+                <li><strong><a href="https://github.com/Qumulo/power-tools#add-qumulo-activity-to-various-databases-from-the-api">API metrics to CSV, ElasticSearch, Influx, and Splunk</a>:</strong> A script that monitors workload data, including paths, clients, IOPS, and throughput.</li>
+            </ul>
+            <h3>Power Tools</h3>
+            <ul>
+                <li><strong><a href="https://github.com/Qumulo/qdu">Disk Usage (<code>du</code>)</a>:</strong> Use Qumulo's aggregates to see the usage of a full file tree in real time.</li>
+                <li><strong><a href="https://github.com/Qumulo/qsplit">Parallel Copy (<code>rsync</code)</a>:<strong> Use capacity aggregates to divide a large data copy job to run with <code>rsync</code>.</li>
+                <li><strong><a href="https://github.com/Qumulo/capacity-by-user">Capacity by User</a>:</strong> Use the file samples API to provide quick estimates of storage usage by user, and to estimate costs.</li>
+                <li><strong><a href="https://github.com/Qumulo/qacls">Access Control List (ACL) Management</a>:</strong> Manage your ACLs.</li>
+            </ul>
+            <h3>Python Jupyter Notebooks</h3>
+            <p>You can explore the Qumulo API using the <a href='https://github.com/Qumulo/python-notebooks'>Qumulo API Jupyter Notebooks</a> data science tool.</p>
         </div>
     </body>
- <footer>
-     <div id="footer">
-         <img src="/images/grumpquats.png" class="gquats" style="max-width:220px" />
-</div>
-     </footer>
+<footer>
+    <div id="footer">
+         <img src="/images/grumpquats.png" class="gquats" style="max-width:220px"/>
+    </div>
+</footer>
 </html>
