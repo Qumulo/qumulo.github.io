@@ -1,5 +1,5 @@
-<!DOCTYPE html lang="en">
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title>Qumulo on GitHub</title>
         <link rel="stylesheet" type="text/css" href="/css/style.css" />
@@ -32,18 +32,18 @@
             <h1>Qumulo Resources on GitHub</h1>
             <p><a href="https://qumulo.com/">Qumulo</a> creates products that to let users manage their unstructured file data for high-performance workloads at exabyte scale. This page is your starting point for Qumulo resources on GitHub.</p>
             <h2>Qumulo Documentation on GitHub</h2>
-            <p>To provide the most up-to-date documentation on Qumulo products, we have started a <a href="https://qumulo.github.io/docs/index.html">Docs as Code</a> repository on GitHub, where you can use, ask questions, and make suggestions for our documentation.</p>
+            <p>To provide the most up-to-date documentation on Qumulo products, we have started a <a href="https://qumulo.github.io/docs/index.html">Docs as Code</a> repository on GitHub, where you can read, ask questions, and make suggestions for our documentation.</p>
             <hr />
             <h2>Qumulo REST API Introduction</h2>
-            <p>Qumulo's scale-out data storage solution is enhanced with our RESTful API. The API is built right into our file system. It's the foundation used behind the Qumulo web application and is used internally by our engineering team for testing, automation, and more. As a storage admin or storage user, you can use this programmatic power to: </p>
+            <p>Qumulo's data storage solutions use a REST API that you can use to: </p>
             <ul>
-                <li>Automate tasks like creating shares, quotas, or snapshots</li>
-                <li>Streamline your workflow with scripted automation</li>
-                <li>Dive deeper into analytics to understand how your storage is being used</li>
+                <li><strong>Automate Tasks:</strong> Create shares, quotas, or snapshots</li>
+                <li><strong>Streamline Your Workflows:</strong> Use scripted automation</li>
+                <li><strong>Dive Deep into Analytics:</strong> Understand how you use your storage</li>
             </ul>
-            <p>To get started, see <a href='https://github.com/Qumulo/qumulo-api-introduction'>Introduction to the Qumulo API</a>, where you can learn about the API's architecture and try out the following implementations.</p>
+            <p>To get started, see <a href="https://github.com/Qumulo/qumulo-api-introduction">Introduction to the Qumulo API</a>, where you can learn about the API architecture and try out the following tools:</p>
             <ul>
-                <li><strong><code>python</code> bindings:</strong> This is the main method of interacting with the Qumulo API programmatically.</li>
+                <li><strong><code>python</code> bindings:</strong> The main method of interacting with the Qumulo API programmatically.</li>
                 <li><strong><code>qq</code> CLI tool:</strong> This wrapper that provides a streamlined command-line interface for the API.</li>
                 <li><strong><code>curl</code> commands:</strong> These examples explain the raw REST elements that back the API.</li>
             </ul>
@@ -56,17 +56,17 @@
             <h3>API-Driven Applications</h3>
             <ul>
                 <li><strong><a href="https://github.com/Qumulo/snmp-agent-app">SNMP Agent:</a></strong> A Simple Network Management Protocol (SNMP) agent that reports on node and drive states for a Qumulo cluster.</li>
-                <li><strong><a href="https://github.com/Qumulo/file-transfer-app">File Upload Web App</a>:</strong> A Flask-based Python application that enables user home directories, file upload, and management functionality.</li>
-                <li><strong><a href="https://github.com/Qumulo/daily-storage-reports-app">Daily Storage Reports Web App</a>:</strong> A Flask-based application that creates reports for store, present, and alert on capacity and IOPS usage by path, over time.</li>
-                <li><strong><a href="https://github.com/Qumulo/capacity-alerts-app">Capacity Email Alerts</a>:</strong> A Python application that sends emails when paths exceed capacity thresholds.</li>
-                <li><strong><a href="https://github.com/Qumulo/power-tools#add-qumulo-activity-to-various-databases-from-the-api">API metrics to CSV, ElasticSearch, Influx, and Splunk</a>:</strong> A script that monitors workload data, including paths, clients, IOPS, and throughput.</li>
+                <li><strong><a href="https://github.com/Qumulo/file-transfer-app">File Upload Web App:</a></strong> A Flask-based Python application that enables user home directories, file upload, and management functionality.</li>
+                <li><strong><a href="https://github.com/Qumulo/daily-storage-reports-app">Daily Storage Reports Web App:</a></strong> A Flask-based application that creates reports for store, present, and alert on capacity and IOPS usage by path, over time.</li>
+                <li><strong><a href="https://github.com/Qumulo/capacity-alerts-app">Capacity Email Alerts:</a></strong> A Python application that sends emails when paths exceed capacity thresholds.</li>
+                <li><strong><a href="https://github.com/Qumulo/power-tools#add-qumulo-activity-to-various-databases-from-the-api">API metrics to CSV, ElasticSearch, Influx, and Splunk:</a></strong> A script that monitors workload data, including paths, clients, IOPS, and throughput.</li>
             </ul>
             <h3>Power Tools</h3>
             <ul>
-                <li><strong><a href="https://github.com/Qumulo/qdu">Disk Usage (<code>du</code>)</a>:</strong> Use Qumulo's aggregates to see the usage of a full file tree in real time.</li>
-                <li><strong><a href="https://github.com/Qumulo/qsplit">Parallel Copy</a>:</strong> Use capacity aggregates to divide a large data copy job to run with <code>rsync</code>.</li>
-                <li><strong><a href="https://github.com/Qumulo/capacity-by-user">Capacity by User</a>:</strong> Use the file samples API to provide quick estimates of storage usage by user, and to estimate costs.</li>
-                <li><strong><a href="https://github.com/Qumulo/qacls">Access Control List (ACL) Management</a>:</strong> Manage your ACLs.</li>
+                <li><strong><a href="https://github.com/Qumulo/qdu">Disk Usage (<code>du</code>):</a></strong> Use Qumulo's aggregates to see the usage of a full file tree in real time.</li>
+                <li><strong><a href="https://github.com/Qumulo/qsplit">Parallel Copy:</a></strong> Use capacity aggregates to divide a large data copy job to run with <code>rsync</code>.</li>
+                <li><strong><a href="https://github.com/Qumulo/capacity-by-user">Capacity by User:</a></strong> Use the file samples API to provide quick estimates of storage usage by user, and to estimate costs.</li>
+                <li><strong><a href="https://github.com/Qumulo/qacls">Access Control List (ACL) Management:</a></strong> Manage your ACLs.</li>
             </ul>
             <h3>Python Jupyter Notebooks</h3>
             <p>You can explore the Qumulo API using the <a href='https://github.com/Qumulo/python-notebooks'>Qumulo API Jupyter Notebooks</a> data science tool.</p>
@@ -74,7 +74,7 @@
         <footer>
             <div id="footer">
                 <img src="/images/grumpquats.png" alt="Three Grumpquats" class="gquats" style="max-width:220px"/>
-            </div><br><br>
+            </div><br><br><br><br>
         </footer>
     </body>
 </html>
