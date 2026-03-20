@@ -31,13 +31,19 @@ body{
     color: #005d80;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 #footer{
     background-color: #0d1934;
     width: auto;
     height: 130px;
 }
 
-#footer img.gquats {
+#footer img.grumpquats {
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -60,4 +66,12 @@ a{
 hr{
     margin-top: 2.5em;
     margin-bottom: 2em;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.grumpquats {
+    max-width: 220px;
 }
